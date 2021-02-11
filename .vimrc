@@ -5,6 +5,8 @@ set background=dark
 set termguicolors
 set autoindent
 set smartindent
+set number
+set ruler
 syntax on
 filetype indent plugin on
 
