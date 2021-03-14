@@ -17,9 +17,9 @@ export PATH="/usr/local/mysql/bin:$PATH"
  PS1="$PS1]$"
 
 # shell prompt
-STARTCOLORBLUE='\[\e[0;34m\]';
-STARTCOLORRED='\[\e[0;31m\]';
+STARTCOLORGREEN='\[\e[0;32m\]';
+STARTCOLORBLUE='\[\e[1;34m\]';
 ENDCOLOR='\[\e[0m\]'
-export PS1="$STARTCOLORBLUE\u@\h $ENDCOLOR$STARTCOLORRED\w $ENDCOLOR$ "
+export PS1="$STARTCOLORGREEN\u@\h $ENDCOLOR$STARTCOLORBLUE\w $ENDCOLOR$ "
 
 export DISPLAY=:0
