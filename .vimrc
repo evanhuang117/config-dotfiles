@@ -21,8 +21,17 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'dracula/vim', { 'as': 'dracula' }
-
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
+
+"color scheme for non 256bit
+Plug 'rakr/vim-one' 
+
+"assembly syntax highlighting
+Plug 'shirk/vim-gas'
+
 call plug#end()
+
+"use vim gas for asm highlighting
+let asmsyntax="gas"
 
 colorscheme onehalfdark
