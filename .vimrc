@@ -7,6 +7,9 @@ set autoindent
 set smartindent
 set number
 set ruler
+"display full filepath all the time
+set statusline+=%F
+set laststatus=2
 syntax on
 filetype indent plugin on
 
