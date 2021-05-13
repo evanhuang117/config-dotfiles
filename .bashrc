@@ -8,8 +8,6 @@ if [ -f ~/.bash_aliases ]; then
 . ~/.bash_aliases
 fi
 
-# export mysql to path
-export PATH="/usr/local/mysql/bin:$PATH"
 
 # display gnu-screen window number in terminal
  PS1='[\u@\h \W'
