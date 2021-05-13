@@ -9,9 +9,14 @@ set number
 set ruler
 "display full filepath all the time
 set statusline+=%F
+"display path in last command box
 set laststatus=2
+set title
 syntax on
 filetype indent plugin on
+
+"Remove all trailing whitespace by pressing F5
+nnoremap <C-w> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 
 let g:deepspace_italics=1
 set nocompatible
