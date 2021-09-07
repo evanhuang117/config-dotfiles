@@ -21,3 +21,4 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Tell Antigen that you're done.
 antigen apply
+if [ -e /Users/evanhuang/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/evanhuang/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
