@@ -4,3 +4,6 @@ if [ -f ~/.bashrc ]; then
         source ~/.bashrc
 fi
 
+if [ -e /Users/evanhuang/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/evanhuang/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"

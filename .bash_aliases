@@ -13,3 +13,5 @@ alias pip=pip3
 export PATH="/usr/local/mysql/bin:$PATH"
 
 export PATH="$PATH:$HOME/flutter/bin"
+
+export PATH="$PATH:$HOME/Downloads/gcc-arm-none-eabi-10-2020-q4-major/bin"
