@@ -16,7 +16,9 @@ syntax on
 filetype indent plugin on
 
 "Remove all trailing whitespace by pressing F5
-nnoremap <C-w> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+
 
 let g:deepspace_italics=1
 set nocompatible
@@ -63,6 +65,12 @@ let g:python_highlight_all = 1
 "wakatime metrics
 Plug 'wakatime/vim-wakatime'
 
+"file tree explorer
+Plug 'scrooloose/nerdtree'
+
+Plug 'vim-syntastic/syntastic'
+
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 "use vim gas for asm highlighting
